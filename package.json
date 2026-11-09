@@ -1,0 +1,14 @@
+{
+  "name": "service-hub",
+  "version": "1.0.0",
+  "description": "Service Hub full-stack application with three Python ML model demos",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "reset": "node -e \"require('fs').rmSync('data',{recursive:true,force:true});console.log('Database reset. It will be re-seeded on next start.')\""
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT"
+}
